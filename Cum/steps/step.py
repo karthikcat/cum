@@ -5,7 +5,7 @@ from time import sleep
 def step1(content):
     content.fb=webdriver.FirefoxProfile("C:/Users/kartseka/AppData/Roaming/Mozilla/Firefox/Profiles/hkn00nlo.Default User")
     content.driver=webdriver.Firefox(content.fb)
-    content.driver.get("https://10.78.239.230/cupm/common/index.jsp")
+    content.driver.get("https://10.78.239.156/cupm/common/index.jsp")
     content.driver.implicitly_wait(20)
 @when ('give username "{username}"')
 def step2(content):
