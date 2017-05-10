@@ -1,0 +1,15 @@
+<testsuite errors="0" failures="0" name="login.Title of your feature" skipped="0" tests="1" time="38.906109"><testcase classname="login.Title of your feature" name="Title of your scenario outline -- @1.1 " status="passed" time="38.906109"><system-out>
+<![CDATA[
+@scenario.begin
+  Scenario Outline: Title of your scenario outline -- @1.1 
+    Given open the cpc application in firefox ... passed in 10.454s
+    When give username "globaladmin" ... passed in 3.145s
+    When give password "roZes@123" ... passed in 0.045s
+    Then click login ... passed in 0.030s
+    Then wait for 25 sec ... passed in 24.997s
+    Then close broswer ... passed in 0.236s
+
+@scenario.end
+--------------------------------------------------------------------------------
+]]>
+</system-out></testcase></testsuite>
